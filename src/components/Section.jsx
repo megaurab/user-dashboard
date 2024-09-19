@@ -1,9 +1,9 @@
 import React from "react";
 
-const Section1 = () => {
+const Section = () => {
   return (
-    <div>
-      <h1 className="text-2xl font-bold mb-4 mt-14 italic">User profile</h1>
+    <div className="mx-8 my-8">
+      <h1 className="text-2xl font-bold mb-4 italic">User profile</h1>
       <p className="mb-6 italic">Add information about yourself</p>
 
       {/* Form */}
@@ -57,4 +57,4 @@ const Section1 = () => {
   );
 };
 
-export default Section1;
+export default Section;
