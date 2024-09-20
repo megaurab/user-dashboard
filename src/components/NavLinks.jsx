@@ -9,7 +9,7 @@ const NavLinks = () => {
         <div className="p-6 flex flex-col justify-center items-center">
           {/* User Info */}
           <div className="flex items-center justify-center bg-gray-800 rounded-full w-20 h-20 mx-auto mt-1">
-            <span className="text-white text-3xl">GB</span>
+            <span className="text-white text-3xl">KD</span>
           </div>
           <h2 className="mt-4 text-center text-lg font-semibold">KONSENG</h2>
         </div>
@@ -21,16 +21,12 @@ const NavLinks = () => {
             <Link to="/profile"><li className="py-2 px-4 hover:bg-gray-200 pb-3 shadow-lg italic mt-2 w-full rounded-md">
                 Profile
             </li></Link>
-            <li className="py-2 px-4 hover:bg-gray-200 pb-3 shadow-lg italic mt-2 rounded-md">
-              <a href="#" className="block text-gray-700">
-                Photo
-              </a>
-            </li>
-            <li className="py-2 px-4 hover:bg-gray-200 pb-3 shadow-lg italic mt-2 rounded-md">
-              <a href="#" className="block text-gray-700">
-                Account Security
-              </a>
-            </li>
+            <Link to="/photo"><li className="py-2 px-4 hover:bg-gray-200 pb-3 shadow-lg italic mt-2 rounded-md">
+              Photo
+            </li></Link>
+            <Link to="/security"><li className="py-2 px-4 hover:bg-gray-200 pb-3 shadow-lg italic mt-2 rounded-md">
+              Account Security
+            </li></Link>
             <li className="py-2 px-4 hover:bg-gray-200 pb-3 shadow-lg italic mt-2 rounded-md">
               <a href="#" className="block text-gray-700">
                 Subscriptions

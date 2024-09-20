@@ -48,7 +48,7 @@ const Section = () => {
           ></textarea>
         </div>
         <div className="flex justify-end">
-          <button className="bg-gray-800 p-4 italic text-white rounded-xl mr-5">
+          <button className="bg-gray-800 p-4 italic text-white rounded-xl">
             Save
           </button>
         </div>
