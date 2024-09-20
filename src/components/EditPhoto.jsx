@@ -1,4 +1,5 @@
 import React from "react";
+import UploadFileIcon from '@mui/icons-material/UploadFile';
 
 const EditPhoto = () => {
   return (
@@ -8,10 +9,12 @@ const EditPhoto = () => {
         <h2 className="italic justify-center ">Add an image to your profile</h2>
       </div>
       <div 
-      className="flex w-full h-full justify-center items-center mt-6 mr-12"
+      className="flex w-full h-full justify-center items-center mt-6 mr-12 mb-5"
       style={{ backgroundImage: 'url("https://i.pinimg.com/474x/95/2f/2e/952f2e5756bc449936816bdc3ebe9af9.jpg")' }}
       >
-        <div className="rounded-full h-20 w-20 bg-gray-800 p-36 mr-16"></div>
+        <div className="rounded-full h-20 w-20 bg-gray-800 p-36 mr-16">
+          {/* <UploadFileIcon className="text-white"/> */}
+        </div>
         <div className="flex flex-col mt-6 mb-8">
           <button className="shadow-md p-3 rounded-lg italic bg-gray-800 text-white mb-1">Browse</button>
           <button className="shadow-md p-3 rounded-lg italic bg-gray-800 text-white mb-1">Camera</button>

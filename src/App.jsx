@@ -5,6 +5,7 @@ import SearchBar from "./components/SearchBar";
 import Section from "./components/Section";
 import EditPhoto from "./components/EditPhoto";
 import Security from "./components/Security";
+import HelpCenter from "./components/HelpCenter";
 
 const App = () => {
   return (
@@ -45,6 +46,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/security",
         element: <Security />,
+      },
+      {
+        path: "/helpCenter",
+        element: <HelpCenter />,
       },
     ],
   },
