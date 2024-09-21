@@ -37,32 +37,21 @@ const NavLinks = () => {
                 Payment methods
               </a>
             </li>
-            <li className="py-2 px-4 hover:bg-gray-200 pb-3 shadow-lg italic mt-2 rounded-md">
-              <a href="#" className="block text-gray-700">
+            <Link to="/privacy"><li className="py-2 px-4 hover:bg-gray-200 pb-3 shadow-lg italic mt-2 rounded-md">
                 Privacy
-              </a>
-            </li>
-            <li className="py-2 px-4 hover:bg-gray-200 pb-3 shadow-lg italic mt-2 rounded-md">
-              <a href="#" className="block text-gray-700">
+            </li></Link>
+            <Link to="/notification"><li className="py-2 px-4 hover:bg-gray-200 pb-3 shadow-lg italic mt-2 rounded-md">
                 Notifications
-              </a>
-            </li>
+            </li></Link>
             <li className="py-2 px-4 hover:bg-gray-200 pb-3 shadow-lg italic mt-2 rounded-md">
               <a href="#" className="block text-gray-700">
                 API clients
               </a>
             </li>
-            <li className="py-2 px-4 hover:bg-gray-200 pb-3 shadow-lg italic mt- rounded-md">
-              <a href="#" className="block text-gray-700">
+            <Link to="/close"><li className="py-2 px-4 hover:bg-gray-200 pb-3 shadow-lg italic mt- rounded-md">
                 Close account
-              </a>
-            </li>
+            </li></Link>
             {/* Add more items to test scrolling */}
-            <li className="py-2 px-4 hover:bg-gray-200 pb-3 shadow-lg italic mt-2 rounded-md">
-              <a href="#" className="block text-gray-700">
-                Close account
-              </a>
-            </li>
             <li className="py-2 px-4 hover:bg-gray-200 pb-3 italic mt-2 rounded-md">
               <a href="#" className="block text-gray-700">
                 

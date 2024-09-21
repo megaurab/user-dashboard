@@ -6,6 +6,9 @@ import Section from "./components/Section";
 import EditPhoto from "./components/EditPhoto";
 import Security from "./components/Security";
 import HelpCenter from "./components/HelpCenter";
+import Privacy from "./components/Privacy";
+import Notification from "./components/Notification";
+import Close from "./components/Close";
 
 const App = () => {
   return (
@@ -50,6 +53,18 @@ const appRouter = createBrowserRouter([
       {
         path: "/helpCenter",
         element: <HelpCenter />,
+      },
+      {
+        path: "/privacy",
+        element: <Privacy />,
+      },
+      {
+        path: "/notification",
+        element: <Notification />,
+      },
+      {
+        path: "/close",
+        element: <Close />,
       },
     ],
   },

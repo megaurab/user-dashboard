@@ -22,7 +22,7 @@ const Security = () => {
       <div className="w-full h-48 flex flex-col justify-center items-center shadow-lg italic mt-5 rounded-xl">
         <h1 className="mt-8 mb-6 font-medium">Multi-factor Authentication</h1>
         <h2 className="mx-8">Increase your account security by requiring that a code emailed to you be entered when you log in. For more information on how multi-factor authentication works, refer to our <Link to="/helpCenter"><span className="text-blue-600 underline hover:text-blue-800">Help Center article</span></Link></h2>
-        <button className="bg-slate-800 p-2 text-white italic rounded-xl mb-5">Enable</button>
+        <button className="bg-slate-800 p-2 text-white italic rounded-xl mb-5 mt-4">Enable</button>
       </div>
     </div>
   );
